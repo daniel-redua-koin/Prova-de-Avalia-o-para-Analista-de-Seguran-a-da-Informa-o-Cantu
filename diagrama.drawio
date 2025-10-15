@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2025-10-14T17:00:00.000Z" agent="ChatGPT GPT-5">
+  <diagram id="HybridSec" name="SegurancaEmpresaPneus">
+    <mxGraphModel dx="1420" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" value="Firewall UTM (WAF, IDS/IPS, VPN, DLP)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="280" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="Cloud Pública (E-commerce: .NET + Node.js + MongoDB ReplicaSet)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="350" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Ambiente Local (VMWare + AD + FileServer + PrintServer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="500" y="180" width="360" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="SIEM/Wazuh, EDR, Backup Imutável, Zero Trust" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="300" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="6" value="Email Seguro (SPF, DKIM, DMARC, TLS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="250" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
